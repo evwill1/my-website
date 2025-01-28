@@ -1,0 +1,36 @@
+body {
+font-family: 'Arial Narrow Bold', sans-serif;
+}
+/* type selector */
+h1 {
+    color: #810481;
+}
+
+/* id selector */
+#objects {
+    color: #3a3ab6;
+    font-weight: bold;
+    line-height: 1.3rem;
+}
+
+/* relational selector */
+main>p {
+    font-stretch: semi-condensed;
+}
+
+/* combination selectors */
+ul.galaxies {
+    font-style: oblique;
+}
+
+a:link {
+    text-decoration-line: none;
+
+}
+
+/* pseudo-class */
+a:hover  {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
