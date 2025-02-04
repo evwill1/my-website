@@ -1,0 +1,17 @@
+body {
+    background: #73b6e0;
+    font-family: 'Arial Narrow Bold', sans-serif;
+}
+
+a:link {
+    text-decoration-line: none;
+
+}
+
+a{
+    color: yellow;
+}
+
+a:hover  {
+    text-decoration: underline;
+}

@@ -1,16 +1,23 @@
+
 body {
 font-family: 'Arial Narrow Bold', sans-serif;
+background: #73b6e0;
 }
+
 /* type selector */
 h1 {
-    color: #810481;
+    color: #000000;
 }
 
 /* id selector */
 #objects {
-    color: #3a3ab6;
+    color: #000000;
     font-weight: bold;
     line-height: 1.3rem;
+}
+
+.objects{
+    padding-top: 5px;
 }
 
 /* relational selector */
@@ -28,9 +35,47 @@ a:link {
 
 }
 
+a{
+    color: yellow;
+}
+
 /* pseudo-class */
 a:hover  {
-    font-size: 2rem;
-    font-weight: bold;
+    text-decoration: underline;
+}
+
+li {
+    padding-top: 5px;
+}
+
+div{
+    column-count: 2;
+    padding: 5px;
+}
+
+img{
+    border: 3px solid grey;
+    padding: 2px;
+}
+
+h4 {
+    margin: 5px;
+}
+
+#astrogear {
+    margin: 5px;
+}
+
+footer {
+    margin-top: 30px;
+    text-align: center;
+}
+
+#lens {
+    margin-top: 50px;
+}
+
+#home {
+    text-align: center;
 }
 
