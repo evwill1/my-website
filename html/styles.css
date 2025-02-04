@@ -8,10 +8,10 @@ a:link {
 
 }
 
-a{
+a {
     color: yellow;
 }
 
-a:hover  {
+a:hover {
     text-decoration: underline;
 }

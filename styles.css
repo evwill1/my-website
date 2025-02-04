@@ -1,7 +1,6 @@
-
 body {
-font-family: 'Arial Narrow Bold', sans-serif;
-background: #73b6e0;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    background: #73b6e0;
 }
 
 /* type selector */
@@ -16,7 +15,7 @@ h1 {
     line-height: 1.3rem;
 }
 
-.objects{
+.objects {
     padding-top: 5px;
 }
 
@@ -35,12 +34,12 @@ a:link {
 
 }
 
-a{
+a {
     color: yellow;
 }
 
 /* pseudo-class */
-a:hover  {
+a:hover {
     text-decoration: underline;
 }
 
@@ -48,12 +47,12 @@ li {
     padding-top: 5px;
 }
 
-div{
+div {
     column-count: 2;
     padding: 5px;
 }
 
-img{
+img {
     border: 3px solid grey;
     padding: 2px;
 }
@@ -78,4 +77,3 @@ footer {
 #home {
     text-align: center;
 }
-
