@@ -53,7 +53,7 @@ div {
 }
 
 img {
-    border: 3px solid grey;
+    border: 3px solid #2e2e2e;
     padding: 2px;
 }
 
@@ -76,8 +76,4 @@ footer {
 
 #home {
     text-align: center;
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 34b65d1826f13930e06469e89ac0ec2939320d4a
