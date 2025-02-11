@@ -6,6 +6,9 @@ body {
 /* type selector */
 h1 {
     color: #000000;
+    margin: auto;
+    width: 570px;
+    padding-top: 0.5em;
 }
 
 /* id selector */
@@ -46,12 +49,12 @@ a:hover {
 li {
     padding-top: 5px;
 }
-
+ /* Columns */
 div {
     column-count: 2;
     padding: 5px;
 }
-
+/* image border */
 img {
     border: 3px solid #2e2e2e;
     padding: 2px;
@@ -76,4 +79,45 @@ footer {
 
 #home {
     text-align: center;
+}
+
+/* nav menu */
+#nav_menu ul {
+    list-style-type: none;
+}
+
+#nav_menu ul li {
+    float: left;
+}
+
+.lastitem {
+    border-right: none;
+}
+
+
+#nav_menu ul li a {
+    padding: 1em;
+    text-decoration: none;
+    background-color: #4b4ba4;
+    color: white;
+    font-weight: bold;
+
+}
+
+#nav_menu ul li a.current {
+    color: yellow;
+}
+
+main {
+    clear: left;
+    padding-top: 1em;
+}
+
+#nav_menu {
+    margin: auto;
+    width: 550px;
+}
+
+#nav_menu a:hover {
+    background-color: #73b6e0;
 }

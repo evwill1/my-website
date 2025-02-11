@@ -25,3 +25,70 @@ footer {
     margin-top: 30px;
     text-align: center;
 }
+
+#tracking {
+    grid-column: 2;
+}
+/* Before photo - single subframe*/
+#sub {
+    width: 500px;
+    height: 378px;
+    background-image: url("../images/sub.jpg");
+    background-size: cover;
+    background-position: center;
+    transition: background-image 0.8s ease-in-out;
+}
+/* after photo-stacked and processed */
+#sub:hover {
+    background-image: url("../images/M31.jpg");
+}
+
+/* nav menu */
+#nav_menu ul {
+    list-style-type: none;
+}
+
+#nav_menu ul li {
+    float: left;
+}
+
+.lastitem {
+    border-right: none;
+}
+
+#nav_menu ul li a {
+    padding: 1em;
+    text-decoration: none;
+    background-color: #4b4ba4;
+    color: white;
+    font-weight: bold;
+
+}
+
+#nav_menu ul li a.current {
+    color: yellow;
+}
+
+main {
+    clear: left;
+    padding-top: 1em;
+}
+
+#nav_menu {
+    margin: auto;
+    width: 550px;
+}
+
+#nav_menu a:hover {
+    background-color: #73b6e0;
+}
+
+div {
+    clear: left;
+    padding-top: 1.5em;
+}
+
+#rig {
+    max-width: 100%;
+    height: auto;
+}
