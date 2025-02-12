@@ -7,7 +7,7 @@ body {
 h1 {
     color: #000000;
     margin: auto;
-    width: 570px;
+    width: 33%;
     padding-top: 0.5em;
 }
 
@@ -15,12 +15,11 @@ h1 {
 #objects {
     color: #000000;
     font-weight: bold;
-    line-height: 1.3rem;
+    line-height: 80%;
 }
 
-.objects {
-    padding-top: 5px;
-}
+
+
 
 /* relational selector */
 main>p {
@@ -47,34 +46,34 @@ a:hover {
 }
 
 li {
-    padding-top: 5px;
+    padding-top: 1%;
 }
  /* Columns */
 div {
     column-count: 2;
-    padding: 5px;
+    padding: 1%;
 }
 /* image border */
 img {
-    border: 3px solid #2e2e2e;
-    padding: 2px;
+    border: 2px solid #2e2e2e;
+    padding: 0.2%;
 }
 
 h4 {
-    margin: 5px;
+    margin-top: 1%;
 }
 
 #astrogear {
-    margin: 5px;
+    margin-top: 0.8%;
 }
 
 footer {
-    margin-top: 30px;
+    margin-top: 10%;
     text-align: center;
 }
 
 #lens {
-    margin-top: 50px;
+    margin-top: 10%
 }
 
 #home {
@@ -110,12 +109,13 @@ footer {
 
 main {
     clear: left;
-    padding-top: 1em;
 }
 
 #nav_menu {
     margin: auto;
-    width: 550px;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
 }
 
 #nav_menu a:hover {

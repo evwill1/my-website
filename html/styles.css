@@ -18,11 +18,11 @@ a:hover {
 
 div {
     column-count: 2;
-    padding: 5px;
+    padding: 1%;
 }
 
 footer {
-    margin-top: 30px;
+    margin-top: 33;
     text-align: center;
 }
 
@@ -30,12 +30,16 @@ footer {
     grid-column: 2;
 }
 /* Before photo - single subframe*/
+/* media query */
 #sub {
-    width: 500px;
-    height: 378px;
+    width: 80%; 
+    max-width: 500px; 
+    height: 300px;
+    
     background-image: url("../images/sub.jpg");
     background-size: cover;
     background-position: center;
+    
     transition: background-image 0.8s ease-in-out;
 }
 /* after photo-stacked and processed */
@@ -76,7 +80,7 @@ main {
 
 #nav_menu {
     margin: auto;
-    width: 550px;
+    width: 33%;
 }
 
 #nav_menu a:hover {
@@ -91,4 +95,11 @@ div {
 #rig {
     max-width: 100%;
     height: auto;
+}
+
+#nav_menu {
+    margin: auto;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
 }

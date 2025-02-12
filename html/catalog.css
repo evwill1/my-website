@@ -18,7 +18,7 @@ a:hover {
 
 #home {
     margin: auto;
-    width: 225px;
+    width: 8%;
 }
 
 /* nav menu */
@@ -49,12 +49,12 @@ a:hover {
 
 main {
     clear: left;
-    padding-top: 1em;
+    padding-top: 5%;
 }
 
 #nav_menu {
     margin: auto;
-    width: 550px;
+    width: 33%;
 }
 
 #nav_menu a:hover {
@@ -64,6 +64,17 @@ main {
 h3 {
     clear: left;
     margin: auto;
-    width: 200px;
-    padding: 1.8em;
+    width: 8%;
+
+}
+
+.catalog {
+    width: 33%;
+}
+
+#nav_menu {
+    margin: auto;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
 }
