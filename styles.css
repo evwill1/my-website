@@ -6,9 +6,7 @@ body {
 /* type selector */
 h1 {
     color: #000000;
-    margin: auto;
-    width: 33%;
-    padding-top: 0.5em;
+    margin: 0.5%;
 }
 
 /* id selector */
@@ -17,9 +15,6 @@ h1 {
     font-weight: bold;
     line-height: 80%;
 }
-
-
-
 
 /* relational selector */
 main>p {
@@ -33,7 +28,6 @@ ul.galaxies {
 
 a:link {
     text-decoration-line: none;
-
 }
 
 a {
@@ -45,14 +39,12 @@ a:hover {
     text-decoration: underline;
 }
 
-li {
-    padding-top: 1%;
-}
- /* Columns */
+/* Columns */
 div {
     column-count: 2;
     padding: 1%;
 }
+
 /* image border */
 img {
     border: 2px solid #2e2e2e;
@@ -89,10 +81,6 @@ footer {
     float: left;
 }
 
-.lastitem {
-    border-right: none;
-}
-
 
 #nav_menu ul li a {
     padding: 1em;
@@ -112,7 +100,7 @@ main {
 }
 
 #nav_menu {
-    margin: auto;
+    padding-bottom: .01%;
     width: 100%;
     justify-content: center;
     text-align: center;
@@ -120,4 +108,21 @@ main {
 
 #nav_menu a:hover {
     background-color: #73b6e0;
+}
+
+.list {
+    margin-bottom: 3%;
+}
+
+@media only screen and (max-width:415px) {
+    .list {
+        width: 90%;
+        float: none;
+        display: block;
+        color: white;
+        padding: 14px 16px;
+        margin-top: 0.7%;
+        margin-bottom: 0.7%;
+        
+    }
 }
