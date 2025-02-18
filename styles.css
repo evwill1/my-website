@@ -1,12 +1,61 @@
 body {
     font-family: 'Arial Narrow Bold', sans-serif;
     background: #73b6e0;
+    margin-top: 0;
 }
 
 /* type selector */
 h1 {
     color: #000000;
-    margin: 0.5%;
+    text-align: center;
+}
+
+/* nav menu */
+#nav_menu {
+    text-decoration: none;
+    background-color: #4b4ba4;
+    font-weight: bold;
+    list-style-type: none;
+}
+
+nav {
+    margin: 0;
+    padding: 0;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+#nav_menu {
+    padding-inline-start: 0;
+    padding-inline-end: 0;
+    margin: 0;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+}
+
+body nav ul li a {
+    color: white;
+    display: block;
+    padding: 5%;
+}
+
+body nav ul {
+    display: flex;
+    flex-direction: row;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+body nav ul li {
+    width: 100%;
+}
+
+nav ul li:hover {
+    background-color: #73b6e0;
 }
 
 /* id selector */
@@ -30,13 +79,17 @@ a:link {
     text-decoration-line: none;
 }
 
+nav ul {
+    list-style-type: none;
+}
+
 a {
     color: yellow;
 }
 
 /* pseudo-class */
 a:hover {
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 /* Columns */
@@ -49,6 +102,10 @@ div {
 img {
     border: 2px solid #2e2e2e;
     padding: 0.2%;
+}
+
+#astrobin {
+    columns: 1;
 }
 
 h4 {
@@ -72,57 +129,22 @@ footer {
     text-align: center;
 }
 
-/* nav menu */
-#nav_menu ul {
-    list-style-type: none;
-}
-
-#nav_menu ul li {
-    float: left;
-}
-
-
-#nav_menu ul li a {
-    padding: 1em;
-    text-decoration: none;
-    background-color: #4b4ba4;
-    color: white;
-    font-weight: bold;
-
-}
-
-#nav_menu ul li a.current {
-    color: yellow;
-}
 
 main {
     clear: left;
 }
 
-#nav_menu {
-    padding-bottom: .01%;
-    width: 100%;
-    justify-content: center;
-    text-align: center;
-}
-
-#nav_menu a:hover {
-    background-color: #73b6e0;
-}
-
-.list {
-    margin-bottom: 3%;
-}
-
 @media only screen and (max-width:415px) {
-    .list {
-        width: 90%;
-        float: none;
-        display: block;
-        color: white;
-        padding: 14px 16px;
-        margin-top: 0.7%;
-        margin-bottom: 0.7%;
-        
+    body nav ul {
+        flex-direction: column;
+        padding: 0%;
+    }
+}
+
+@media only screen and (max-width:1000px) {
+    div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 }

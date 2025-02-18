@@ -10,62 +10,78 @@
 
 <body>
     <!-- 4 HTML pages that you can navigate between using the navigation menu -->
-    <nav id="nav_menu">
-        <ul>
+    <nav>
+        <ul id="nav_menu">
             <li class="list"><a href="../index.html">Home</a></li>
             <li class="list"><a href="../html/catalog.html">Catalog</a></li>
             <li class="list"><a href="../html/gear.html">Gear</a></li>
             <li class="list"><a href="../html/software.html" class="lastitem">Software</a></li>
         </ul>
     </nav>
-    <div id="gear">
-        <!-- Software, tracking, stacking and processing -->
-        <h3>Software for astrophotography</h3>
-        <h4>Aquisition</h4>
-        <p>Aquiring images requires some form of software known as image capture or aquisition software. Some software
-            is free while others can cost hundreds of dollars. Depending on the needs of the photographer, you may be
-            able to just use free capture software. </p>
-        <h4>Here is a list of aquisition software</h4>
-        <ul>
-            <li>Astro Photography Tool (APT)</li>
-            <li>NINA</li>
-            <li>Sequence Generator Pro</li>
-            <li>SharpCap</li>
-            <li>ZWO ASI Studio (using ASIAir, Pro, or Plus)</li>
-            <li>Backyard EOS (for Canon Cameras)</li>
-            <li>Backyard Nikon (for Nikon Cameras)</li>
-        </ul>
-        <h4 id="tracking">Tracking</h4>
-        <p>For a more automated process, guiding software is necessary for tracking. Tracking software is used to
-            control a motorized telescope mount to remain fixed on the target object as the camera takes many photos
-            with as little errors as possible so images come out nice and clean.</p>
-            <!-- One link that opens a different website in a different browser tab or browser window  -->
-        <p>The most popular tracking software in the field is <a href="https://openphdguiding.org/" target="_blank">PHD2</a>.</p>
-        <h4>Stacking</h4>
-        <p>After a night of imaging a photographer is left with a tens, possibly hundreds of images in a .RAW or .FITS
-            file type. These are uncompressed and unprocessed image files that contain the valuable image data even if
-            the do not look like it. This is where stacking software comes in for the win. These softwares use
-            intelligent algorithms to detect and align stars within a photo and literally stack them together. This is
-            useful for two reasons-1. it removes unwanted artifacts such as satellite and plane trails. and 2. it
-            enhances the details of the target object by increasing the signal in the photo.</p>
-        <h4>Popular stacking software includes:</h4>
-        <ul>
-            <li>DSS: deep sky stacker</li>
-            <li>WBPP: Weighted Batch Pre-Processing (This is a script contained within Pixinsight processing software)
-            </li>
-        </ul>
-        <h4>Processing</h4>
-        <p>Processing is the last step in the processing of creating a astrophoto. This is the point where the
-            photographer gets to express their artistic side while maintaining some scientific dedication. The
-            processing phase usually includes cropping, rotating, background extraction, gradient removal, histogram and
-            curves transformation, and color balancing.</p>
-        <h5>The most popular programs for processing are:</h5>
-        <ul>
-            <li>Pixinsight</li>
-            <li>Adobe Photoshop</li>
-            <li>Siril</li>
-            <li>Gimp</li>
-        </ul>
+
+    <h3>Software</h3>
+
+    <!-- Software, tracking, stacking and processing -->
+    <div id="software">
+        <div id="left">
+            <h4>Aquisition</h4>
+            <p>Aquiring images requires some form of software known as image capture or aquisition software. Some
+                software
+                is free while others can cost hundreds of dollars. Depending on the needs of the photographer, you may
+                be
+                able to just use free capture software. </p>
+            <h4>Here is a list of aquisition software</h4>
+            <ul>
+                <li>Astro Photography Tool (APT)</li>
+                <li>NINA</li>
+                <li>Sequence Generator Pro</li>
+                <li>SharpCap</li>
+                <li>ZWO ASI Studio (using ASIAir, Pro, or Plus)</li>
+                <li>Backyard EOS (for Canon Cameras)</li>
+                <li>Backyard Nikon (for Nikon Cameras)</li>
+            </ul>
+            <h4 id="tracking">Tracking</h4>
+            <p>For a more automated process, guiding software is necessary for tracking. Tracking software is used to
+                control a motorized telescope mount to remain fixed on the target object as the camera takes many photos
+                with as little errors as possible so images come out nice and clean.</p>
+        </div>
+
+
+        <!-- One link that opens a different website in a different browser tab or browser window  -->
+        <div id="right">
+            <h4>Stacking</h4>
+            <p>After a night of imaging a photographer is left with a tens, possibly hundreds of images in a .RAW or
+                .FITS
+                file type. These are uncompressed and unprocessed image files that contain the valuable image data even
+                if
+                the do not look like it. This is where stacking software comes in for the win. These softwares use
+                intelligent algorithms to detect and align stars within a photo and literally stack them together. This
+                is
+                useful for two reasons-1. it removes unwanted artifacts such as satellite and plane trails. and 2. it
+                enhances the details of the target object by increasing the signal in the photo.</p>
+            <h4>Popular stacking software includes:</h4>
+            <ul>
+                <li>DSS: deep sky stacker</li>
+                <li>WBPP: Weighted Batch Pre-Processing (This is a script contained within Pixinsight processing
+                    software)
+                </li>
+            </ul>
+            <h4>Processing</h4>
+            <p>Processing is the last step in the processing of creating a astrophoto. This is the point where the
+                photographer gets to express their artistic side while maintaining some scientific dedication. The
+                processing phase usually includes cropping, rotating, background extraction, gradient removal, histogram
+                and
+                curves transformation, and color balancing.</p>
+            <h5>The most popular programs for processing are:</h5>
+            <ul>
+                <li>Pixinsight</li>
+                <li>Adobe Photoshop</li>
+                <li>Siril</li>
+                <li>Gimp</li>
+            </ul>
+        </div>
+        <p>The most popular tracking software in the field is <a href="https://openphdguiding.org/"
+                target="_blank">PHD2</a>.</p>
     </div>
     <h4>Here is an example of a single, unprocessed, 3 minute long image of the Andromeda galaxy.</h4>
     <p id="sub"></p>

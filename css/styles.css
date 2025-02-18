@@ -1,6 +1,15 @@
 body {
     background: #73b6e0;
     font-family: 'Arial Narrow Bold', sans-serif;
+    margin-top: 0;
+}
+
+h3 {
+    text-align: center;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-top: 1%;
+
 }
 
 a:link {
@@ -13,10 +22,10 @@ a {
 }
 
 a:hover {
-    text-decoration: underline;
+    text-decoration: none;
 }
 
-div {
+#gear {
     column-count: 2;
     padding: 1%;
 }
@@ -26,51 +35,73 @@ footer {
     text-align: center;
 }
 
-#tracking {
-    grid-column: 2;
-}
+
 /* Before photo - single subframe*/
 /* media query */
 #sub {
-    width: 80%; 
-    max-width: 500px; 
+    width: 80%;
+    max-width: 500px;
     height: 300px;
-    
+
     background-image: url("../images/sub.jpg");
     background-size: cover;
     background-position: center;
-    
+
     transition: background-image 0.8s ease-in-out;
 }
+
 /* after photo-stacked and processed */
 #sub:hover {
     background-image: url("../images/M31.jpg");
 }
 
 /* nav menu */
-#nav_menu ul {
-    list-style-type: none;
-}
-
-#nav_menu ul li {
-    float: left;
-}
-
-.lastitem {
-    border-right: none;
-}
-
-#nav_menu ul li a {
-    padding: 1em;
+#nav_menu {
     text-decoration: none;
     background-color: #4b4ba4;
-    color: white;
     font-weight: bold;
+    list-style-type: none;
 
 }
 
-#nav_menu ul li a.current {
-    color: yellow;
+nav {
+    margin: 0;
+    padding: 0;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+#nav_menu {
+    padding-inline-start: 0;
+    padding-inline-end: 0;
+    margin: 0;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+}
+
+body nav ul li a {
+    color: white;
+    display: block;
+    padding: 5%;
+}
+
+body nav ul {
+    display: flex;
+    flex-direction: row;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+body nav ul li {
+    width: 100%;
+}
+
+nav ul li:hover {
+    background-color: #73b6e0;
 }
 
 main {
@@ -78,16 +109,21 @@ main {
     padding-top: 1em;
 }
 
-#nav_menu {
-    margin: auto;
-    width: 33%;
+#software {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 10px;
 }
 
-#nav_menu a:hover {
-    background-color: #73b6e0;
+#left {
+    grid-column: 1;
 }
 
-div {
+#right {
+    grid-column: 2;
+}
+
+#gear {
     clear: left;
     padding-top: 1.5em;
 }
@@ -97,22 +133,10 @@ div {
     height: auto;
 }
 
-#nav_menu {
-    margin: auto;
-    width: 100%;
-    justify-content: center;
-    text-align: center;
-}
 
 @media only screen and (max-width:415px) {
-    .list {
-        width: 90%;
-        float: none;
-        display: block;
-        color: white;
-        padding: 14px 16px;
-        margin-top: 0.7%;
-        margin-bottom: 0.7%;
-        
+    body nav ul {
+        flex-direction: column;
+        padding: 0%;
     }
 }
