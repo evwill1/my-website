@@ -59,8 +59,14 @@ h3 {
 
 }
 
-.catalog {
-    width: 33%;
+div {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+img {
+width: 100%;
+height: auto;
 }
 
 footer p a {
@@ -72,8 +78,14 @@ footer p a {
 
 
 @media only screen and (max-width:920px) {
-    .catalog {
-        width: 49%
+    div {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+    img {
+    width: 100%;
+    height: auto;
     }
 }
 
