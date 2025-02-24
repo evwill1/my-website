@@ -62,7 +62,7 @@ h3 {
 div {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 5px;
+    gap: 10px;
 }
 
 img {
