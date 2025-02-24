@@ -37,7 +37,6 @@ footer {
 
 
 /* Before photo - single subframe*/
-/* media query */
 #sub {
     width: 80%;
     max-width: 500px;
@@ -133,6 +132,7 @@ main {
     height: auto;
 }
 
+/* MEDIA QUERIES */
 
 @media only screen and (max-width:415px) {
     body nav ul {
