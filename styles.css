@@ -1,8 +1,11 @@
 body {
-    font-family: 'Arial Narrow Bold', sans-serif;
     background: #73b6e0;
     margin-top: 0;
+    font-family: "Space Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
 }
+
 
 /* type selector */
 h1 {
@@ -61,7 +64,7 @@ body nav ul li {
 }
 
 nav ul li:hover {
-    background-color: #73b6e0;
+    background-color: #808080;
 }
 
 /* id selector */

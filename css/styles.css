@@ -1,7 +1,9 @@
 body {
     background: #73b6e0;
-    font-family: 'Arial Narrow Bold', sans-serif;
     margin-top: 0;
+    font-family: "Space Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
 }
 
 h3 {
@@ -35,6 +37,10 @@ footer {
     text-align: center;
 }
 
+#sub-header {
+    width: 80%;
+    max-width: 500px;
+}
 
 /* Before photo - single subframe*/
 #sub {
@@ -100,7 +106,7 @@ body nav ul li {
 }
 
 nav ul li:hover {
-    background-color: #73b6e0;
+    background-color: #808080;
 }
 
 main {

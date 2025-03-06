@@ -1,0 +1,6 @@
+From Jordie Peck- The hover effect that expands the navigation bar is a great touch, providing a clear connection to different sections of the site. The color scheme is well-chosen, but its application is important. Using the same blue as the page for navigation links can make readability challenging, as that color is often associated with the currently active page. A subtle shift to a light gray or another contrasting shade could improve clarity.
+
+Regarding the catalog, it might be beneficial to prevent images from resizing with the browser and instead use a grid layout to maintain their prominence. This would help preserve the details of your photographs. The side-by-side text arrangement is a great use of space, ensuring that key information is front and center rather than leaving empty gaps. However, when resizing the browser, transitioning from two columns to a single stream might improve readability and adaptability across different screen sizes.
+
+Changes-I have changed the nav ul li:hover to have a background color of #808080 on all .css files so that it doesn't blend into the background when hovering.
+Also, in catalog.css I have added a media query to change the grid to a single column at viewport widths of 415px or less.

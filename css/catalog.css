@@ -1,7 +1,9 @@
 /* Body color and font */
 body {
     background: #73b6e0;
-    font-family: 'Arial Narrow Bold', sans-serif;
+    font-family: "Space Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
     margin-top: 0;
 }
 
@@ -50,7 +52,7 @@ main {
 
 /* nav menu hover */
 #nav_menu a:hover {
-    background-color: #73b6e0;
+    background-color: #808080;
 }
 
 h3 {
@@ -95,5 +97,11 @@ footer p a {
 @media only screen and (max-width:415px) {
     body nav ul {
         flex-direction: column;
+    }
+
+    div {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
     }
 }
