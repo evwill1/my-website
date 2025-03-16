@@ -32,6 +32,7 @@ a:hover {
     padding: 1%;
 }
 
+
 footer {
     margin-top: 33;
     text-align: center;
@@ -133,9 +134,15 @@ main {
     padding-top: 1.5em;
 }
 
+
+h4 {
+    margin-left: 1%;
+}
+
 #rig {
-    max-width: 100%;
+    max-width: 400px;
     height: auto;
+    margin-left: 1%;
 }
 
 /* MEDIA QUERIES */
