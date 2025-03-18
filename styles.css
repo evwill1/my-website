@@ -50,6 +50,10 @@ body nav ul li a {
     padding: 5%;
 }
 
+#index {
+    background-color: #808080;
+}
+
 /* NAV BAR FLEX BOX */
 
 body nav ul {
@@ -108,10 +112,41 @@ div {
 }
 
 /* image border */
-img {
-    border: 2px solid #2e2e2e;
+img,
+video {
     padding: 0.2%;
+    width: 60%;
+    display: block;
+    margin: auto;
+    padding-bottom: 50px;
+
 }
+
+#astrobin,
+.text {
+    align-items: center;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+#box, #box1,
+#box2 {
+    border-radius: 20px;
+    background-color: #2e2e2e56;
+    margin-bottom: 5px;
+}
+
+#box{
+    padding: 1%;
+}
+
+#box1 {
+    padding-top: 25px;
+}
+
 
 #astrobin {
     columns: 1;
@@ -126,7 +161,6 @@ h4 {
 }
 
 footer {
-    margin-top: 10%;
     text-align: center;
 }
 

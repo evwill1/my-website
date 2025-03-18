@@ -29,6 +29,10 @@ a:link {
     text-align: center;
 }
 
+#nav {
+    background-color: #808080;
+}
+
 body nav ul li a {
     color: white;
     display: block;

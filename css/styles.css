@@ -48,12 +48,12 @@ footer {
     width: 80%;
     max-width: 500px;
     height: 300px;
-
     background-image: url("../images/sub.jpg");
     background-size: cover;
     background-position: center;
-
     transition: background-image 0.8s ease-in-out;
+    display: block;
+    margin: auto;
 }
 
 /* after photo-stacked and processed */
@@ -68,6 +68,10 @@ footer {
     font-weight: bold;
     list-style-type: none;
 
+}
+
+#nav {
+    background-color: #808080;
 }
 
 nav {
@@ -115,10 +119,15 @@ main {
     padding-top: 1em;
 }
 
-#software {
+#software, #equipment {
     display: grid;
     grid-template-columns: 50% 50%;
     gap: 10px;
+}
+
+#left,
+#right {
+    padding: 2%;
 }
 
 #left {
@@ -132,17 +141,34 @@ main {
 #gear {
     clear: left;
     padding-top: 1.5em;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 10px;
 }
 
+#gear-left, #gear-right, #equip-left, #equip-right, #left, #right {
+    padding: 1%;
+    border-radius: 20px;
+    background-color: #2e2e2e56;
+    margin-bottom: 5px;
+}
 
-h4 {
+h4, #sub-header {
     margin-left: 1%;
+    text-align: center;
+}
+
+#sub-header {
+    margin-left: 16%;
 }
 
 #rig {
     max-width: 410px;
     height: auto;
     margin-left: 1%;
+    display: block;
+    margin: auto;
+    padding: 3%;
 }
 
 /* MEDIA QUERIES */
@@ -151,5 +177,15 @@ h4 {
     body nav ul {
         flex-direction: column;
         padding: 0%;
+    }
+}
+
+@media only screen and (max-width:1000px) {
+
+    #software,
+    #gear, #equipment {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 }

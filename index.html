@@ -18,7 +18,7 @@
     <!-- nav menu -->
     <nav id="nav_menu">
         <ul>
-            <li class="list"><a href="index.html">Home</a></li>
+            <li class="list" id="index"><a href="index.html">Home</a></li>
             <li class="list"><a href="html/catalog.html">Catalog</a></li>
             <li class="list"><a href="html/gear.html">Gear</a></li>
             <li class="list"><a href="html/software.html" class="lastitem">Software</a></li>
@@ -27,36 +27,39 @@
     <main>
         <!-- An introduction to astrophotography-->
         <h1>The art of Astrophotography</h1>
-        <p>I am an amature astrophotographer. Astrophotography is the process of taking images of celestial objects. All
-            of the images and videos shown are my own individual works.</p>
-        <p>Common target objects include:</p>
-
-        <!--a list of typical objects-->
-        <ul id="objects">
-            <li class="objects"><strong>Galaxies</strong></li>
-            <li class="objects">Star Clusters</li>
-            <li class="objects">Nebulas</li>
-        </ul>
-
+        <section id="box">
+            <p>I am an amature astrophotographer. Astrophotography is the process of taking images of celestial objects.
+                All
+                of the images and videos shown are my own individual works.</p>
+            <p>Common target objects include:</p>
+            <!--a list of typical objects-->
+            <ul id="objects">
+                <li class="objects"><strong>Galaxies</strong></li>
+                <li class="objects">Star Clusters</li>
+                <li class="objects">Nebulas</li>
+            </ul>
+        </section>
         <!--example photo-->
         <div>
-            <h2>Below is an image of the California Nebula (NGC 1499).</h2>
-            <img src="images/NGC_1499.jpg" alt="A photo of the california nebula." width="60%">
-            <p id="astrobin"><a href="https://www.astrobin.com/users/evwill/">Astrobin</a> is a popular image hosting
-                site for
-                astrophotos.</p>
-
-            <!-- Found instruction for videos in chapter 14 -->
-            <h4>Here is a 4 hour timelapse of the Milky Way compressed into a 15 second video.</h4>
-            <video width="60%" controls>
-                <source src="images/timelapse.mp4">
-            </video>
-            <p>This timelapse was taken in 2023 using a Nikon 600D and 50mm lens from Bremerton, WA. </p>
+            <section id="box1">
+                <h2>Below is an image of the California Nebula (NGC 1499).</h2>
+                <a href="images/Thumbnails/NGC_1499.jpg" target="_blank" id="img">
+                    <img src="images/Thumbnails/NGC_1499.jpg" alt="colored image of the California Nebula"
+                        class="catalog">
+                </a>
+            </section>
+            <section id="box2">
+                <p id="astrobin"><a href="https://www.astrobin.com/users/evwill/">Astrobin</a> is a popular image
+                    hosting site for astrophotos.</p>
+                <!-- Found instruction for videos in chapter 14 -->
+                <h4 class="text">Here is a 4 hour timelapse of the Milky Way compressed into a 15 second video.</h4>
+                <video width="60%" controls>
+                    <source src="images/timelapse.mp4">
+                </video>
+                <p class="text">This timelapse was taken in 2023 using a Nikon 600D and 50mm lens from Bremerton, WA.
+                </p>
+            </section>
         </div>
-        <h4>Astrogear</h4>
-        <p id="astrogear">Depending on the style of photography and the intended target, certain types of gear may be
-            required to obatin a quality photo of the object. Click <a href="html/gear.html">here</a> to read more about
-            astrogear.</p>
     </main>
     <footer>
         &copy; Evan Williams 2025
