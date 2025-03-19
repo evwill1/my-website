@@ -1,5 +1,9 @@
 body {
-    background: #73b6e0;
+    background-image: url('../images/milky_way.jpg');
+    background-size: cover;  
+    background-repeat: no-repeat; 
+    background-position: center;
+    color: aliceblue;
     margin-top: 0;
     font-family: "Space Mono", monospace;
     font-weight: 400;

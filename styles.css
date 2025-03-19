@@ -1,5 +1,9 @@
 body {
-    background: #73b6e0;
+    background-image: url('images/milky_way.jpg');
+    background-size: cover;  
+    background-repeat: no-repeat; 
+    background-position: center;
+    color: aliceblue;
     margin-top: 0;
     font-family: "Space Mono", monospace;
     font-weight: 400;
@@ -9,7 +13,6 @@ body {
 
 /* type selector */
 h1 {
-    color: #000000;
     text-align: center;
 }
 
@@ -73,7 +76,6 @@ nav ul li:hover {
 
 /* id selector */
 #objects {
-    color: #000000;
     font-weight: bold;
     line-height: 80%;
 }
