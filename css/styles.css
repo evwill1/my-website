@@ -1,15 +1,14 @@
 body {
-    background-image: url('../images/milky_way.jpg');
-    background-size: cover;  
-    background-repeat: no-repeat; 
-    background-position: center;
     color: aliceblue;
     margin-top: 0;
     font-family: "Space Mono", monospace;
     font-weight: 400;
     font-style: normal;
+    background: url('../images/milky_way.jpg') no-repeat center center fixed;
+    background-size: cover;  
+    margin: 0;
+    height: 100%;
 }
-
 h3 {
     text-align: center;
     margin-block-start: 0;
