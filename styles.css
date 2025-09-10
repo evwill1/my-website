@@ -4,8 +4,7 @@ body {
     font-family: "Space Mono", monospace;
     font-weight: 400;
     font-style: normal;
-    background: url('images/milky_way.jpg') no-repeat center center fixed;
-    background-size: cover;  
+    background: #838a8f;
     margin: 0;
     height: 100%;
 }
