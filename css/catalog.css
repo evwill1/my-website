@@ -1,5 +1,6 @@
 /* Body color and font */
 body {
+    color: aliceblue;
     background: #838a8f;
     font-family: "Space Mono", monospace;
     font-weight: 400;
